@@ -45,6 +45,7 @@ def cbFun(snmpEngine, stateReference, contextEngineId, contextName, varBinds, cb
 if __name__ == '__main__':
 
     # Mail client
+    # Please change mail address
     mail_addr = '******.******@gmail.com'
     mc = MailClient(mail_addr, 'smtp.gmail.com')
     
